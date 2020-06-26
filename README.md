@@ -1,4 +1,4 @@
-<h1 align="center">Front-end: Projeto de Conclusão</h1>
+<h1 align="center">Front-End: Projeto de Conclusão</h1>
 
 <p align="center"><img src="https://img.shields.io/badge/Made%20By-Midi%C3%A3%20Lima-blueviolet?link=http://left&link="https://www.linkedin.com/in/midia-lima/right"></p><br>
 
