@@ -18,6 +18,7 @@ const email = document.querySelector('input[name="email"]');
 const btn = document.querySelector("#botao-final");
 
 btn.addEventListener('click', function () {
+    event.preventDefault();
     if (nome.value.length == 0 || email.value.length == 0) {
         alert("Por favor preecha todos os campos");
     }
