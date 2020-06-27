@@ -10,9 +10,9 @@
     <title>Palestras TED</title>
 </head>
 
-<body>     
+<body>
     <div class="img">
-        <header>            
+        <header>
             <nav>
                 <ul class="menu-principal">
                     <li><a href="#sobre">SOBRE</li></a>
@@ -21,15 +21,16 @@
                 <div class="botao">
                     <a href="#contato"><button id="inscreva-se">INSCREVA-SE</button></a>
                 </div>
-            </nav>           
+            </nav>
         </header>
-        <img src="./img/teste.jpg" id="img-topo">          
-    </div>  
+        <img src="./img/teste.jpg" id="img-topo">
+    </div>
     <section id="sobre" class="conteudo">
         <div class="container">
             <h2>Sobre o TED</h2>
             <h3>30 de Maio de 2017 - na Cidade Maravilhosa</h3>
-            <p>TED (acrônimo de Technology, Entertainment, Design) é uma organização sem fins lucrativos dedicada à disseminação de idéias, geralmente na forma de
+            <p>TED (acrônimo de Technology, Entertainment, Design) é uma organização sem fins lucrativos dedicada à
+                disseminação de idéias, geralmente na forma de
                 palestras curtas e poderosas.</p>
             <p>O TED começou em 1984 como uma conferência em que Tecnologia, Entretenimento e Design convergiram e hoje
                 abrange quase todos os tópicos - da ciência aos negócios e questões globais - em mais de 100 idiomas.
@@ -94,15 +95,19 @@
         </div>
     </section>
 
-    <form id="contato" class="formulario">
+    <div class="dados">
         <p>Seus Dados</p>
+    </div>
+
+    <form id="contato" class="formulario">    
+        <div id="mensagem-erro"></div>    
         <div class="campos container ">
             <label for="nome">Nome</label>
             <input type="text" name="nome" id="nome">
             <label for="email">E-mail</label>
             <input type="email" name="email" id="email">
             <button type="submit" id="botao-final">REALIZAR INSCRIÇÃO</button>
-        </div>        
+        </div>
     </form>
 
     <script src="./js/jquery.js"></script>
