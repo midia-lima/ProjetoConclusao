@@ -19,7 +19,7 @@ const btn = document.querySelector("#botao-final");
 
 btn.addEventListener('click', function () {
     if (nome.value.length == 0 || email.value.length == 0) {
-        alert("Por favor preecha os campos");
+        alert("Por favor preecha todos os campos");
     }
     else {
         alert("Incrição efetuada com sucesso!");
