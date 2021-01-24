@@ -6,7 +6,7 @@
 <p>Esse página foi desenvolvida na mentoria <i>Cloud Girls</i> em parceria com a <i>Oracle ONE (Oracle Next Education)</i></p>
 
 <h2>:sheep: Clonando o Repositório</h2>
-<p>Para clonar o repósitorio, você deve abrir o <b>terminal</b> ou <b>git bash</b> na pasta que deseja adicionar o projeto. Após isso execute a linha de comando:</p>
+<p>Para clonar o repositório, você deve abrir o <b>terminal</b> ou <b>git bash</b> na pasta que deseja adicionar o projeto. Após isso execute a linha de comando:</p>
 
 ```shell
 git clone https://github.com/midia-lima/ProjetoConclusao.git
